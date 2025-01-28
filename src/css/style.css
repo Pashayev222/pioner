@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+ .header {
+    margin-top: 20px;
+ }
+
+ .pioner-img {
+    width: 180px;
+    height: 38px;
+ }
+
+ .line {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    background: #888888;
+ }
+
+ .rosiski-text {
+    color: #333333;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    margin-top: 80px;
+
+ }
+
+ .cityimg {
+    width: 100%;
+ }
+
+ .image {
+    display: flex;
+    
+ }
+
+ .image img {
+    width: 50%;
+ }
+
+ .car_img {
+   width: 100%;
+    margin-left: 20px;
+ }
+ 
+ .prodcsiya_text {
+   margin-top: 50px;
+ }
+
+ .ts_img {
+   width: 380px;
+   height:430px;
+   background: #F5F5F5;
+   margin-top: 40px;
+ }
+
+ .img-ts {
+   width: 200px;
+   height: 200px;
+   margin-top: 40px;
+   margin-left: 20px;
+
+ }
+
+ .map {
+   width: 100%;
+   margin-top: 70px;
+ }
+
+ .novasti-text {
+   margin-top: 30px;
+
+ }
+
+ .people-img {
+   width: 380px;
+   height: 478px;
+   background: #F5F5F5;
+ }
+
+ .date {
+   display: flex;
+   justify-content: space-around;
+   position: relative;
+   top: 80px;
+ }
+
+ .footer {
+   width: 100%;
+   height: 361px;
+   background-color: #2d2d2d;
+   color: white;
+   padding-top: 50px
+}
+.footer a {
+   margin-top: 40px;
+   color: white;
+   text-decoration: none;
+}
+
+
+
+
+ @media (max-width: 768px) {
+    .cityimg {
+        width: 100%px;
+    }
+
+    .map {
+      width: 100%px;
+    }
+
+    .footer {
+      width: 100%;
+    }
+
+    }
+ 
+
+ @media (max-width: 400px) {
+    .cityimg {
+        width: 100%px;
+    }
+   
+    .map {
+      width: 100%px;
+    }
+
+    .footer {
+      width: 100%;
+    }
+ }
