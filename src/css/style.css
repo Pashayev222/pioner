@@ -91,10 +91,9 @@
 
  .footer {
    width: 100%;
-   height: 361px;
    background-color: #2d2d2d;
    color: white;
-   padding-top: 50px
+ padding: 50px 0;
 }
 .footer a {
    margin-top: 40px;
@@ -107,30 +106,13 @@
 
  @media (max-width: 768px) {
     .cityimg {
-        width: 100%px;
+        width: 100%;
     }
 
     .map {
-      width: 100%px;
-    }
-
-    .footer {
       width: 100%;
     }
 
-    }
- 
+  
 
- @media (max-width: 400px) {
-    .cityimg {
-        width: 100%px;
     }
-   
-    .map {
-      width: 100%px;
-    }
-
-    .footer {
-      width: 100%;
-    }
- }
